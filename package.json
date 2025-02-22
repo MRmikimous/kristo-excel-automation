@@ -1,0 +1,24 @@
+{
+  "name": "kristo-excel-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "service-install": "node service-install.js",
+    "service-uninstall": "node service-uninstall.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "drivelist": "^12.0.2",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "ini": "^5.0.0",
+    "node-gyp": "^11.1.0",
+    "node-systray-v2": "github:Edgar-P-yan/node-systray-v2",
+    "node-windows": "1.0.0-beta.8",
+    "usb": "^2.15.0"
+  }
+}
