@@ -1,0 +1,1 @@
+pyinstaller -F -w -i .\favicon.ico --uac-admin -n Kristo-Excel-Automation .\main.py
